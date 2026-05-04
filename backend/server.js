@@ -22,6 +22,11 @@ mongoose.connect(process.env.MONGO_URI)
 app.get('/', (req, res) => {
   res.send("Server is working ");
 });
+
+app.get('/protected', apiAuth, (req, res) => {
+  res.json({ message: `Hello ${req.user.username}` });
+});
+
 console.log("ENV:", process.env.MONGO_URI)
 // Start server
 app.listen(PORT, () => {

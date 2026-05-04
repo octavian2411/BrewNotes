@@ -1,0 +1,61 @@
+$color-background: #f7ede0;
+$color-card-bg: #fdf6ee;
+$color-dark-brown: #3b1f0e;
+$color-medium-brown: #7a4e2d;
+$color-tan: #a0714f;
+$color-light-tan: #c4a882;
+$color-cream: #e2cdb0;
+$color-light-cream: #eddfc8;
+$color-hover-cream: #f0dfc8;
+$color-accent: #c4894f;
+
+// Star Colors
+$color-star-filled: #fbbf24;
+$color-star-empty: #d4bfa0;
+
+// Brew Method Colors
+$color-espresso: rgb(120 53 15);
+$color-espresso-light: rgb(255 251 235);
+$color-pour-over: rgb(3 105 161);
+$color-pour-over-light: rgb(240 249 255);
+$color-french-press: rgb(68 64 60);
+$color-french-press-light: rgb(250 250 249);
+$color-aeropress: rgb(4 120 87);
+$color-aeropress-light: rgb(236 253 245);
+$color-chemex: rgb(67 56 202);
+$color-chemex-light: rgb(238 242 255);
+$color-moka: rgb(159 18 57);
+$color-moka-light: rgb(255 241 242);
+$color-cold-brew: rgb(30 64 175);
+$color-cold-brew-light: rgb(239 246 255);
+$color-siphon: rgb(109 40 217);
+$color-siphon-light: rgb(245 243 255);
+$color-other: rgb(82 82 82);
+$color-other-light: rgb(250 250 250);
+
+// Spacing
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+
+// Border Radius
+$radius-sm: 0.5rem;
+$radius-md: 0.75rem;
+$radius-lg: 1rem;
+$radius-xl: 1.5rem;
+
+// Shadows
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+$shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+// Transitions
+$transition-default: all 0.2s ease;
+
+// Breakpoints
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
